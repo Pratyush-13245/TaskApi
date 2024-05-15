@@ -1,4 +1,4 @@
-# Node.js Task Management API with Redis Caching
+# Node.js Task Management API 
 
 This is a simple RESTful API built with Node.js and Express.js for managing tasks. MongoDB is used as the database for storing task data, and Redis is used for caching to improve performance.
 
@@ -14,7 +14,6 @@ Before running this application, make sure you have the following installed:
 
 - Node.js
 - MongoDB
-- Redis
 
 ## Installation
 
@@ -29,8 +28,6 @@ cd <project-directory>
 
 npm install
 
-markdown
-Copy code
 
 4. Start the application:
 
@@ -52,7 +49,6 @@ npm start
 ## Configuration
 
 - MongoDB connection URI: `mongodb://localhost:27017/taskDB`
-- Redis connection options: Default configuration
 
 ## Contributing
 
